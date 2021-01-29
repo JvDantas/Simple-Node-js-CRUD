@@ -19,7 +19,7 @@ sql.query('use nodejs')
 // Configs 
 app.engine("handlebars", handlebars({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
-app.use('/javascript', express.static('js'))
+app.use('/js', express.static('js'))
 app.use('/css', express.static('css'))
 app.use('/img', express.static('img'))
 
