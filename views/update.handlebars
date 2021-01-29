@@ -1,0 +1,20 @@
+<h1>Update de Usuario</h1>
+<br>
+
+<div style="text-align: center;">
+    <div>
+        <h3>ID: {{id}} </h3>
+    </div>
+    <form name='form2' action='/update/controllerUpdate' method="post">
+        <input type="hidden" name='id' id='id' placeholder='Id:' value="{{id}}">
+        <input type="text" name='name' id='name' placeholder='Name:' value="{{name}}">
+        <input type="text" name='age' id='age' placeholder='Age:' value="{{age}}">
+        <input type="submit" name='btnSubmit' id='btnSubmit' value='Update'>
+    </form>
+</div>
+<br>
+<div style="text-align: center;">
+    <button>
+        <a href="../select">Voltar a Lista</a>
+    </button>
+</div>

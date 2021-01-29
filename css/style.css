@@ -1,0 +1,9 @@
+*{background: white;}
+
+h1{text-align: center;}
+
+table{width: 100%; text-align: center;}
+
+table td{ width: 25%;}
+
+table tr:first-child{ background: #333; color:black; font-weight: bold ;padding:15px 0;}
