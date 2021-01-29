@@ -1,1 +1,2 @@
-* .handlebars linguist-detectable = false
+*.handlebars linguist-detectable = false
+*.sql linguist-detectable=true
